@@ -30,11 +30,11 @@ We use seed 0 for all tasks.
 Train the model using your specified method. Replace `{task}` and `{method}`, and set the GPU ID and seed accordingly:
 
 ```bash
-bash synthetic/experiments/{task}/{method}.sh
+bash gmm_mw/experiments/{task}/{method}.sh
 ```
 
 ```bash
-bash particle_system/script/{task}/{method}.sh {gpu_id} {seed}
+bash lj_aldp/script/{task}/{method}.sh {gpu_id} {seed}
 ```
 
 ## Alanine Dipeptide Evaluation
