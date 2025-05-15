@@ -20,7 +20,7 @@ The reproduction workflow consists of two main steps:
 Fill buffer by first round searcher. Replace `{task}` with your chosen task, and specify the GPU ID and random seed:
 
 ```bash
-bash particle_system/script/collect/{task}.sh {gpu_id} {seed}
+bash lj_aldp/script/collect/{task}.sh {gpu_id} {seed}
 ```
 
 We use seed 0 for all tasks.
@@ -42,7 +42,7 @@ bash lj_aldp/script/{task}/{method}.sh {gpu_id} {seed}
 For the Alanine Dipeptide system, you need to correct the sampled bond graph and chirality before evaluation. Run the following script, specifying GPU ID, seed, checkpoint directory, and epoch:
 
 ```bash
-bash particle_system/script/aldp/eval.sh {gpu_id} {seed} {checkpoint_dir} {epoch}
+bash lj_aldp/script/aldp/eval.sh {gpu_id} {seed} {checkpoint_dir} {epoch}
 ```
 
 ---
