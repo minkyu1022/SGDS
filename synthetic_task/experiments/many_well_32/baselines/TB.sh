@@ -1,0 +1,15 @@
+python energy_sampling/train_without_RND.py \
+  --method PIS \
+  --t_scale 1.0 \
+  --energy many_well_32 \
+  --pis_architectures \
+  --zero_init \
+  --clipping \
+  --mode_fwd tb \
+  --lr_policy 1e-3 \
+  --hidden_dim 256 \
+  --s_emb_dim 256 \
+  --t_emb_dim 256 \
+  --batch_size 2000 \
+  --epochs 50000 \
+  --seed 12345 \

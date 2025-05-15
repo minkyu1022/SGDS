@@ -1,0 +1,1 @@
+bash script/lj13/collect.sh 0 4000 2000 16 lj13_16K # 64K energy calls

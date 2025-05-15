@@ -1,0 +1,20 @@
+python energy_sampling/train_with_RND.py \
+  --method SGDS \
+  --round 2 \
+  --teacher mala \
+  --max_iter_ls 4000 \
+  --burn_in 2000 \
+  --t_scale 100.0 \
+  --energy 40gmm \
+  --pis_architectures \
+  --zero_init \
+  --clipping \
+  --mode_fwd tb \
+  --mode_bwd tb \
+  --both_ways \
+  --lr_policy 1e-3 \
+  --lr_flow 1e-3 \
+  --hidden_dim 256 \
+  --s_emb_dim 256 \
+  --t_emb_dim 256 \
+  --seed 12345 \

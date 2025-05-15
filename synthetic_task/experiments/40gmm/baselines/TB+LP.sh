@@ -1,0 +1,16 @@
+python energy_sampling/train_without_RND.py \
+  --method TB+LP \
+  --t_scale 100.0 \
+  --energy 40gmm \
+  --pis_architectures \
+  --zero_init \
+  --clipping \
+  --mode_fwd tb \
+  --lr_policy 1e-3 \
+  --lr_flow 1e-1 \
+  --langevin \
+  --hidden_dim 256 \
+  --s_emb_dim 256 \
+  --t_emb_dim 256 \
+  --epochs 10000 \
+  --seed 12345 \

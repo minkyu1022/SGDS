@@ -1,0 +1,18 @@
+python energy_sampling/train_without_RND.py \
+  --method SubTB+LP \
+  --t_scale 1.0 \
+  --energy many_well_128 \
+  --pis_architectures \
+  --zero_init \
+  --clipping \
+  --mode_fwd subtb \
+  --lr_policy 1e-3 \
+  --lr_flow 1e-2 \
+  --langevin \
+  --partial_energy \
+  --conditional_flow_model \
+  --hidden_dim 256 \
+  --s_emb_dim 256 \
+  --t_emb_dim 256 \
+  --epochs 10000 \
+  --seed 12345 \

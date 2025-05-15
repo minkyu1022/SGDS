@@ -1,0 +1,1 @@
+bash script/lj55/collect.sh 0 10000 4000 2 lj55_5K # 20K energy calls
