@@ -11,6 +11,11 @@ conda env create -f ./environment.yml
 conda activate your_env_name
 ```
 
+## Download data
+
+To run the experiments for ALDP and LJ potentials, you can download the reference samples
+[Anonymous links for data](https://zenodo.org/records/15436773)
+
 ## Reproduction Guide
 
 The reproduction workflow consists of two main steps:
