@@ -13,8 +13,7 @@ conda activate your_env_name
 
 ## Download data
 
-To run the experiments for ALDP and LJ potentials, you can download the reference samples
-https://zenodo.org/records/15436773
+To run the experiments for ALDP and LJ potentials, you can download the reference samples from the link attached in Appendix A.~
 
 ## Reproduction Guide
 
