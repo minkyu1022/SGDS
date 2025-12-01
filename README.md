@@ -4,8 +4,6 @@
 
 <p align="center">
   <img src="assets/peptides.png" width="30%" />
-  <img src="assets/mw.png" width="30%" />
-  <img src="assets/lj55.png" width="30%" />
 </p>
 
 This directory provides implementations and experiments for the Lenard-Jones potential and Alanine Dipeptide systems. It includes filling buffer by first round searcher, training routines, and evaluation scripts to reproduce our results.
