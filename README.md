@@ -1,4 +1,4 @@
-# On scalable and efficient training of diffusion samplers
+# On scalable and efficient training of diffusion samplers [NeurIPS '25]
 
 [![arXiv](https://img.shields.io/badge/arXiv-2505.19552-b31b1b.svg)](https://arxiv.org/abs/2505.19552)
 
