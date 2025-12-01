@@ -1,4 +1,11 @@
-# Directory Overview
+# On scalable and efficient training of diffusion samplers
+
+[![arXiv](https://img.shields.io/badge/arXiv-2505.19552-b31b1b.svg)](https://arxiv.org/abs/2505.19552)
+
+<p align="center">
+  <img src="assets/peptides.pdf" width="30%" />
+  <img src="assets/lj55_dist.pdf" width="30%" />
+</p>
 
 This directory provides implementations and experiments for the Lenard-Jones potential and Alanine Dipeptide systems. It includes filling buffer by first round searcher, training routines, and evaluation scripts to reproduce our results.
 
